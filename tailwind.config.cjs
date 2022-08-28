@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     colors: {
       overskrifter: "#A77979",
-      baggrund: "#704F4F",
+      baggrund: "#8F3928",
+      roed: "#C60601",
+      blaa: "#55AFF5",
+      bg: "#F7FFFF",
+      stjerner: "#EBF55F",
     },
     extend: {
       fontFamily: {

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="bg-gray-50 grid gap-10">
+  <body class="grid gap-10 bg-bg">
     <!-- Hero section -->
     <section class="grid h-auto md:grid-cols-2">
       <!-- class="bg-[url('/billeder/hero.jpg')]" -->
@@ -18,13 +18,22 @@
         <img src="billeder/hero.jpg" alt="" />
       </div>
       <div class="grid items-center justify-start bg-baggrund p-10">
-        <div>
-          <h1 class="font-khand text-4xl text-overskrifter lg:text-6xl">
-            Københavnerbilleder
-          </h1>
-          <p>- en guide til hipster foto af Sten Simons</p>
+        <div class="grid gap-10">
           <div>
-            <button>Køb</button>
+            <h1 class="font-khand text-4xl text-blaa lg:text-6xl">
+              Københavnerbilleder
+            </h1>
+            <p class="font-redhat font-bold">
+              - en guide til hipster foto af Sten Simons
+            </p>
+          </div>
+
+          <div>
+            <button
+              class="rounded-md bg-blaa p-2 px-10 font-khand text-lg hover:bg-overskrifter md:text-2xl"
+            >
+              Køb nu
+            </button>
           </div>
         </div>
       </div>
@@ -36,7 +45,9 @@
       <section class="grid items-center gap-6">
         <div class="grid gap-10 md:grid-cols-2">
           <div>
-            <h2 class="font-redhat text-base font-bold lg:text-xl">
+            <h2
+              class="mb-2 font-redhat text-lg font-bold text-roed md:text-2xl"
+            >
               Stamdata:
             </h2>
             <ul class="grid gap-2 font-redhat text-sm lg:text-base">
@@ -49,7 +60,9 @@
             </ul>
           </div>
           <div>
-            <h2 class="font-redhat text-base font-bold lg:text-xl">
+            <h2
+              class="mb-2 font-redhat text-lg font-bold text-roed md:text-2xl"
+            >
               Københavnerbilleder er de danske streetfotografers bibel:
             </h2>
             <p class="font-redhat text-sm lg:text-base">
@@ -68,12 +81,14 @@
       </section>
       <!-- Sektion 2 - Kapitlerne -->
       <section class="grid gap-4">
-        <h2 class="font-redhat text-xl font-bold">Kapitlerne</h2>
+        <h2 class="font-redhat text-lg font-bold text-roed md:text-2xl">
+          Kapitlerne
+        </h2>
         <div>
           <ul class="grid gap-10 font-redhat md:grid-cols-2">
             <li>
               <div>
-                <h3 class="text-base font-bold lg:text-xl">
+                <h3 class="text-base font-bold md:text-xl">
                   Kapitel 1 - Intro til street foto
                 </h3>
                 <p class="font-redhat">
@@ -87,7 +102,7 @@
             </li>
             <li>
               <div>
-                <h3 class="text-base font-bold lg:text-xl">
+                <h3 class="text-base font-bold md:text-xl">
                   Kapitel 2 - Om at skyde street
                 </h3>
                 <p class="font-redhat">
@@ -101,7 +116,7 @@
             </li>
             <li>
               <div>
-                <h3 class="text-base font-bold lg:text-xl">
+                <h3 class="text-base font-bold md:text-xl">
                   Kapitel 3 - Om at finde det rette motiv
                 </h3>
                 <p class="font-redhat">
@@ -114,7 +129,7 @@
             </li>
             <li>
               <div>
-                <h3 class="text-base font-bold lg:text-xl">
+                <h3 class="text-base font-bold md:text-xl">
                   Kapitel 4 - Digital street foto
                 </h3>
                 <p class="font-redhat">
@@ -127,7 +142,7 @@
             </li>
             <li>
               <div>
-                <h3 class="text-base font-bold lg:text-xl">
+                <h3 class="text-base font-bold md:text-xl">
                   Kapitel 5 - Analog street foto
                 </h3>
                 <p class="font-redhat">
@@ -141,7 +156,7 @@
             </li>
             <li>
               <div>
-                <h3 class="text-base font-bold lg:text-xl">
+                <h3 class="text-base font-bold md:text-xl">
                   Kapitel 6 - Om at skyde sort/hvid
                 </h3>
                 <p class="font-redhat">
@@ -154,7 +169,7 @@
             </li>
             <li>
               <div>
-                <h3 class="text-base font-bold lg:text-xl">
+                <h3 class="text-base font-bold md:text-xl">
                   Kapitel 7 - Kreative teknikker
                 </h3>
                 <p class="font-redhat">
@@ -169,7 +184,7 @@
             </li>
             <li>
               <div>
-                <h3 class="text-base font-bold lg:text-xl">
+                <h3 class="text-base font-bold md:text-xl">
                   Kapitel 8 - Kom helt tæt på!
                 </h3>
                 <p class="font-redhat">
@@ -186,12 +201,14 @@
 
       <!-- Sektion 3 - Pressen siger -->
       <section class="grid gap-4">
-        <h2 class="font-redhat text-xl font-bold">Pressen siger</h2>
-        <div class="grid gap-10 md:grid-cols-3">
-          <div class="bg-blue-100 grid items-center rounded p-2">
-            <figure class="grid md:grid-cols-6">
+        <h2 class="font-redhat text-lg font-bold text-roed md:text-2xl">
+          Hvad siger pressen
+        </h2>
+        <div class="grid gap-3 md:grid-cols-3">
+          <div class="rounded bg-baggrund p-5">
+            <figure class="grid grid-cols-6">
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -201,7 +218,7 @@
                   d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
                 /></svg
               ><svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -211,7 +228,7 @@
                   d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
                 /></svg
               ><svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -221,7 +238,7 @@
                   d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
                 /></svg
               ><svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -231,7 +248,7 @@
                   d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
                 /></svg
               ><svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -242,7 +259,7 @@
                 />
               </svg>
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -253,18 +270,21 @@
                 />
               </svg>
             </figure>
-            <p class="font-redhat">
-              Københavnerbilleder er en grundig introduktion til at skyde
-              billeder med retro-kant. Hvad enten du er har arbejdet med foto
-              siden 135-filmen kom på markedet, du kun har skudt digitalt eller
-              er helt nybegynder, er der masser af tips og tricks i bogen.
-            </p>
-            <p class="font-redhat font-bold">- Hanne Hovgaard, Berlingeren</p>
+            <div class="mt-2 grid gap-2">
+              <p class="font-redhat">
+                Københavnerbilleder er en grundig introduktion til at skyde
+                billeder med retro-kant. Hvad enten du er har arbejdet med foto
+                siden 135-filmen kom på markedet, du kun har skudt digitalt
+                eller er helt nybegynder, er der masser af tips og tricks i
+                bogen.
+              </p>
+              <p class="font-redhat font-bold">- Hanne Hovgaard, Berlingeren</p>
+            </div>
           </div>
-          <div class="bg-blue-100 grid items-center rounded p-2">
-            <figure class="grid md:grid-cols-5">
+          <div class="rounded bg-baggrund p-5">
+            <figure class="grid grid-cols-5">
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -274,7 +294,7 @@
                   d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
                 /></svg
               ><svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -284,7 +304,7 @@
                   d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
                 /></svg
               ><svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -294,7 +314,7 @@
                   d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"
                 /></svg
               ><svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -305,7 +325,7 @@
                 />
               </svg>
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -316,18 +336,20 @@
                 />
               </svg>
             </figure>
-            <p class="font-redhat">
-              Teksten er underholdende, og billederne er sku’ flotte. Hvad mere
-              skal man sige om en fotobog?
-            </p>
-            <p class="font-redhat font-bold">
-              - Kim Kloggaard, Fotojournalen.dk
-            </p>
+            <div class="mt-2 grid gap-2">
+              <p class="font-redhat">
+                Teksten er underholdende, og billederne er sku’ flotte. Hvad
+                mere skal man sige om en fotobog?
+              </p>
+              <p class="font-redhat font-bold">
+                - Kim Kloggaard, Fotojournalen.dk
+              </p>
+            </div>
           </div>
-          <div class="bg-blue-100 grid items-center rounded p-2">
-            <figure class="grid md:grid-cols-6">
+          <div class="rounded bg-baggrund p-5">
+            <figure class="grid grid-cols-6">
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -338,7 +360,7 @@
                 />
               </svg>
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -349,7 +371,7 @@
                 />
               </svg>
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -360,7 +382,7 @@
                 />
               </svg>
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -371,7 +393,7 @@
                 />
               </svg>
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -382,7 +404,7 @@
                 />
               </svg>
               <svg
-                class="text-yellow-400"
+                class="text-stjerner"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
@@ -393,37 +415,87 @@
                 />
               </svg>
             </figure>
-            <p class="font-redhat">
-              Sten Simons kan det der - og han bliver bedre og bedre. Stens
-              tredje fotobog er klart den bedste - her er han for alvor i sit
-              rette element, meget bedre end “studiefotografering som
-              begyndere.” Tillykke - godt arbejde.
-            </p>
-            <p class="font-redhat font-bold">- Volmer Hansen, Lukkertiden.dk</p>
+            <div class="mt-2 grid gap-2">
+              <p class="font-redhat">
+                Sten Simons kan det der - og han bliver bedre og bedre. Stens
+                tredje fotobog er klart den bedste - her er han for alvor i sit
+                rette element, meget bedre end “studiefotografering som
+                begyndere.” Tillykke - godt arbejde.
+              </p>
+              <p class="font-redhat font-bold">
+                - Volmer Hansen, Lukkertiden.dk
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Sektion 4 - billeder af bogen -->
-      <section class="grid gap-4 md:grid-cols-3">
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
-        <img src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" />
+      <section
+        class="grid grid-cols-1 gap-4 md:grid-cols-3 md:grid-rows-3 md:gap-4"
+      >
+        <picture
+          class="md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-3"
+        >
+          <img src="billeder/amarminoen-med-et-agfa-le-box-12.jpg" alt="" />
+        </picture>
+        <picture
+          class="contents md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2"
+        >
+          <img
+            class="self-stretch object-cover"
+            src="billeder/agfa-genanvendeligt-kamera-35mm-11.jpg"
+            alt=""
+          />
+        </picture>
+        <picture
+          class="contents md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-2"
+        >
+          <img
+            class="self-stretch object-cover"
+            src="billeder/agfa-genanvendeligt-kamera-35mm-5.jpg"
+            alt=""
+          />
+        </picture>
+        <picture
+          class="contents md:col-start-2 md:col-end-3 md:row-start-2 md:row-end-3"
+        >
+          <img
+            class="self-stretch object-cover"
+            src="billeder/anamorfiske-landskaber-amager-faelled-4.jpg"
+            alt=""
+          />
+        </picture>
+        <picture
+          class="md:col-start-3 md:col-end-4 md:row-start-2 md:row-end-4"
+        >
+          <img src="billeder/lomo-smena-15.jpg" alt="" />
+        </picture>
+
+        <picture class="col-start-1 col-end-2 row-start-3 row-end-4 contents">
+          <img
+            class="self-stretch object-cover"
+            src=" billeder/amarminoen-med-et-agfa-le-box-11.jpg"
+            alt=""
+          />
+        </picture>
+        <picture
+          class="contents md:col-start-2 md:col-end-2 md:row-start-3 md:row-end-4"
+        >
+          <img
+            class="self-stretch object-cover"
+            src="billeder/foraar-med-et-agfa-le-box-2021-17.jpg"
+            alt=""
+          />
+        </picture>
       </section>
 
       <!-- Sektion 5 - forfatteren -->
       <section class="grid gap-4">
-        <h2 class="font-redhat text-xl font-bold">Forfatteren</h2>
-        <div class="grid gap-10 md:grid-cols-2">
-          <div>
-            <img src="billeder/sten_simons.jpg" alt="" />
-          </div>
+        <h2 class="font-redhat text-lg font-bold text-roed md:text-2xl">
+          Forfatteren
+        </h2>
+        <div class="grid gap-10 md:grid-cols-2 md:flex-col-reverse">
           <div>
             <p class="font-redhat">
               Sten Simons har en lang foto-karriere bag sig. Det hele startede i
@@ -441,20 +513,30 @@
               Fotografering for evnesvage.
             </p>
           </div>
+          <picture class="contents">
+            <img src="billeder/sten_simons.jpg" alt="" />
+          </picture>
         </div>
       </section>
 
       <!-- Sektion 6 - Køb københavnerbilleder nu -->
-      <section class="grid gap-4">
-        <h2 class="font-redhat text-6xl font-bold">
-          Køb københavnerbilleder nu
-        </h2>
+      <section class="grid justify-items-center gap-4">
         <div>
-          <button class="font-redhat">Køb</button>
+          <h2 class="font-redhat text-3xl font-bold text-roed md:text-6xl">
+            Køb københavnerbilleder nu:
+          </h2>
+        </div>
+
+        <div>
+          <button
+            class="rounded-md bg-blaa p-2 px-10 font-khand text-lg hover:bg-overskrifter md:text-2xl"
+          >
+            Køb nu
+          </button>
         </div>
       </section>
     </div>
-    <footer class="bg-blue-100">
+    <footer class="bg-baggrund">
       <div class="m-20">
         <h2>Lavet af Alberte Stærmose</h2>
         <p>@copy 2022</p>
