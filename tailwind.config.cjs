@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // darkMode: "class",
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
     colors: {
@@ -9,6 +10,10 @@ module.exports = {
       blaa: "#55AFF5",
       bg: "#F7FFFF",
       stjerner: "#EBF55F",
+      darksort: "#000000",
+      darkgron: "#103033",
+      darkblaa: "#3E4EC7",
+      darkoverskrift: "#A1CFB5",
     },
     extend: {
       fontFamily: {
